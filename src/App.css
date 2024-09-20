@@ -1,0 +1,34 @@
+/* App.css */
+.App {
+  text-align: center;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.star-rating {
+  display: inline-flex;
+  gap: 5px; /* Space between stars */
+  margin-bottom: 15px;
+}
+
+/* Style for the individual stars */
+.star-rating span {
+  font-size: 40px; /* Size of stars */
+  transition: color 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for stars */
+.star-rating span:hover,
+.star-rating span:hover ~ span {
+  color: #ffdd57; /* Change star color on hover */
+}
